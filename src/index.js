@@ -1,6 +1,13 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
+import store from './store';
 
-render(<App />, document.getElementById('root'));
+const render = () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
+};
+
+render();
+
+store.subscribe(render);
