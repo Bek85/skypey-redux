@@ -6,10 +6,14 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "redux": "^4.1.1",
+    "shortid": "^2.2.16",
+    "txtgen": "^2.2.8",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
